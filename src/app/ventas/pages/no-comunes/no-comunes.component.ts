@@ -34,4 +34,11 @@ export class NoComunesComponent {
     this.clientes.pop();
   }
 
+  // KeyValue Pipe
+  persona = {
+    nombre: 'Angelo',
+    edad: 36,
+    direccion: 'Santiago, Chile'
+  };
+
 }
